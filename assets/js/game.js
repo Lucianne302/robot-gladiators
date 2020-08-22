@@ -89,6 +89,8 @@ var fight = function(enemy) {
                 window.alert(playerInfo.name + ' still has ' + playerInfo.health + ' health left.');
             }
         }
+        //switch turn order for next round
+        isPlayerTurn = !isPlayerTurn;
     }    
 };
 
